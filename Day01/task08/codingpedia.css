@@ -1,0 +1,83 @@
+.box {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 0 10px;
+    background-color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.flex-80 {
+    flex: 0.8 0.2;
+}
+
+.flex-20 {
+    flex: 0.2 0.8;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.grid-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-columns-5 {
+    grid-column: 5/5;
+}
+
+.moving_square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    animation-name: moving_square;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    z-index: 1000;
+}
+
+@keyframes moving_square {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+    25% {
+        top: 300px;
+        left: 0;
+        background-color: green;
+    }
+    50% {
+        top: 300px;
+        left: 300px;
+        background-color: blue;
+    }
+    75% {
+        top: 0;
+        left: 300px;
+        background-color: yellow;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+}

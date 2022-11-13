@@ -1,0 +1,60 @@
+/* All device */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+/* background color header */
+.bg-blue {
+    background-color: blue;
+}
+/* background coulor first section */
+.bg-green {
+    background-color: green;
+}
+/* background color tfooter */
+.bg-red {
+    background-color: red;
+}
+/* background color yellow article */
+.bg-yellow {
+    background-color: yellow;
+}
+.col-12 {
+    width: 100%;
+}
+.h-10 {
+    height : 10%
+}
+.h-vh-10 {
+    height: 10vh;
+}
+.h-vh-25 {
+    height: 25vh;
+}
+.h-vh-50 {
+    height: 50vh;
+}
+.h-p-45 {
+    height: 45%;
+}
+
+/* overflow hidden */
+.o-scroll {
+    overflow: scroll;
+}
+.o-scroll::-webkit-scrollbar {
+    display: none;
+}
+.d-none {
+    display: none;
+}
+/* viewport max 767px */
+@media screen and (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
